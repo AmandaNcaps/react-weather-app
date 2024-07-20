@@ -12,6 +12,6 @@ root.render(
       <h1>Weather App</h1>
       <App />
     </div>
-    <footer>This project was coded by Amanda Ncaphayi & is hosted on <a href="https://github.com/AmandaNcaps/react-weather-app" target="_blank" rel="Github"> Github  </footer>
+    <footer>This project was coded by Amanda Ncaphayi & is hosted on <a href="https://github.com/AmandaNcaps/react-weather-app" target="_blank" rel="noreferrer noopener"> Github</a>  </footer>
   </StrictMode>
 );
