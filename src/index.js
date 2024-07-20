@@ -8,10 +8,29 @@ const root = createRoot(rootElement);
 
 root.render(
   <StrictMode>
-    <div className="App">
-      <h1>Weather App</h1>
-      <App />
-    </div>
-    <footer>This project was coded by Amanda Ncaphayi & is hosted on <a href="https://github.com/AmandaNcaps/react-weather-app" target="_blank" rel="noreferrer noopener"> Github</a>  </footer>
+    <>
+      <div className="App">
+        <h1>Weather App</h1>
+        <App />
+      </div>
+      <footer>
+        This project was coded by
+        <a
+          href="https://github.com/AmandaNcaps"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          {" "}Amanda Ncaphayi
+        </a>
+        & is hosted on{" "}
+        <a
+          href="https://github.com/AmandaNcaps/react-weather-app"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          Github
+        </a>
+      </footer>
+    </>
   </StrictMode>
 );
